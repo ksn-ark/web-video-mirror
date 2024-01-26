@@ -1,0 +1,21 @@
+{
+  "description": "flip vido",
+  "manifest_version": 2,
+  "name": "video-flip",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/flipicon.png"
+  },
+  "permissions": ["activeTab", "menus", "storage"],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["flip.js"]
+    }
+  ]
+}
