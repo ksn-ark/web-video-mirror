@@ -17,5 +17,8 @@
       "matches": ["<all_urls>"],
       "js": ["flip.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": { "id": "{ce97e319-3e63-4a70-81a0-0963f3afd3b5}" }
+  }
 }

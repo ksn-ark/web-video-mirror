@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "web-ext build -o",
-    "lint": "web-ext lint"
+    "lint": "web-ext lint",
+    "sign": "web-ext sign"
   },
   "repository": {
     "type": "git",
