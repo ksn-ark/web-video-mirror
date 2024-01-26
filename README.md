@@ -1,4 +1,4 @@
-# web-video-mirror
+# Web video mirror
 
 firefox web extension to flip a video horizontally.
 
