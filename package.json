@@ -1,0 +1,27 @@
+{
+  "name": "youtube-video-mirror",
+  "version": "1.0.0",
+  "description": "extension to add context menu option to mirror videos",
+  "main": "manifes.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "web-ext build -o",
+    "lint": "web-ext lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksn-ark/web-video-mirror.git"
+  },
+  "keywords": [
+    "flip"
+  ],
+  "author": "ksn-ark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksn-ark/web-video-mirror/issues"
+  },
+  "homepage": "https://github.com/ksn-ark/web-video-mirror#readme",
+  "dependencies": {
+    "web-ext": "^7.11.0"
+  }
+}
