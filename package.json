@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ksn-ark/web-video-mirror#readme",
   "dependencies": {
+    "@types/firefox-webext-browser": "^120.0.0",
     "web-ext": "^7.11.0"
   }
 }
