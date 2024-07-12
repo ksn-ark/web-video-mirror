@@ -13,9 +13,3 @@ browser.menus.onClicked.addListener((info, tab) => {
     });
   }
 });
-
-browser.tabs.onActivated.addListener((i) => {
-  browser.tabs.sendMessage(i, {
-    action: "tabChange",
-  });
-});
